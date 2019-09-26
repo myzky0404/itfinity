@@ -1,7 +1,7 @@
 body{
   font-family:
   '游ゴシック体', 'Yu Gothic', 'YuGothic', 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'Osaka', 'ＭＳ Ｐゴシック'; 'MS PGothic', sans-serif;
-  color: #1d494d;
+  color: #1d2d4d;
 }
 
 
@@ -61,27 +61,40 @@ font-size: 20px;
 
 .content3-2 a{
   background-color:orange;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
 }
 
 @media(max-width: 590px){
  body{
-   background-color: #1d494d;
+   background-color: #1d2d4d;
  }
 
  .content1{
-   padding-top: 0;
+   padding-top: 0px;
  }
 
  .content2{
-  position: static;
-  padding-top: 0px;
+   position: absolute;
+     padding-top: 0px;
+     top: 80%;
+ }
+
+ .content2 h2{
+   font-size: 18px;
+ }
+
+
+
+ .content2 p{
+   font-size: 14px;
  }
 
 .content3 {
-  position: static;
+  position: absolute;
   margin-top: 20px;
+  top: 155%;
+}
 
 }
 
